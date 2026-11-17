@@ -1,0 +1,58 @@
+JIHU LEE - LINKEDIN PREVIEW FIX
+
+YOUR WEBSITE
+https://jihulee1.github.io/jihulee/
+
+UPLOAD THE EXTRACTED CONTENTS, NOT THIS ZIP
+
+1. Download Jihu_Lee_GitHub_Website.zip. On Windows, right-click the ZIP
+   and choose Extract All. Open the extracted folder.
+2. Go to https://github.com/jihulee1/jihulee and choose
+   Add file > Upload files. Drag ALL the extracted files AND folders onto
+   the upload area: index.html, styles.css, site.js, site-content.js,
+   assets/, and images/. Put these directly beside the existing index.html,
+   not inside another folder. Upload .nojekyll too if visible.
+   Commit the changes to main.
+   Uploading the ZIP itself does not extract or publish its contents.
+   Replacing only index.html leaves the images and stylesheet missing.
+3. In Settings > Pages, confirm main and /(root). Wait for the latest
+   Pages deployment to complete successfully.
+4. Open the website and this preview image in a private browser window:
+   https://jihulee1.github.io/jihulee/assets/linkedin-preview.png
+   The image must open directly without a 404 or a sign-in prompt.
+5. Open https://www.linkedin.com/post-inspector/ while signed in.
+   Inspect https://jihulee1.github.io/jihulee/ for a fresh preview.
+   Then return to your profile > Featured > + > Add a link, and paste
+   the website address again.
+
+WHAT THIS PACKAGE FIXES
+
+The index.html found in your repository was 11,062,423 bytes, above the
+3,145,728-byte limit in the error you reported. This package keeps pictures,
+reports, styles, and scripts separate. Its index.html is about 15 KB.
+The total ZIP can be larger; the HTML response matters for that size error.
+The preview image is a separate 1 MB PNG.
+
+All canonical and social preview URLs include /jihulee/, matching your
+actual project website address. You do not need to rename the repository.
+The supplied 1460 x 780 screenshot remains the preview. LinkedIn controls
+its final crop and display. Local validation does not establish that
+LinkedIn has refreshed or can fetch the deployed website.
+
+FILES TO KEEP TOGETHER
+
+index.html       Homepage and sharing metadata.
+styles.css       Layout and appearance.
+site-content.js  Project and experience content.
+site.js          Interactive project details and navigation.
+assets/          Portrait, preview, diagrams, resume, PDFs, and code.
+images/          Project and leadership photographs.
+
+IF IT STILL FAILS
+
+Check index.html on GitHub: about 15 KB, not 11 MB.
+Check that assets/ and images/ appear in the repository root.
+Check that the preview image URL above loads after deployment.
+Use the same /jihulee/ address in Post Inspector and Featured.
+If Inspector shows a preview but Featured fails, reload LinkedIn and
+start a new Add a link attempt. Keep any remaining Inspector error text.

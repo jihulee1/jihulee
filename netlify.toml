@@ -1,0 +1,3 @@
+# Static site: upload this folder or import it as a repository.
+[build]
+  publish = "."
